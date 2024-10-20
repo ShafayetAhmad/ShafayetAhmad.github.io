@@ -31,6 +31,17 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
+      {socialMediaLinks.youtube ? (
+        <a
+          href={socialMediaLinks.youtube}
+          className="icon-button youtube"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-brands fa-youtube"></i>
+          <span></span>
+        </a>
+      ) : null}
 
       {socialMediaLinks.gmail ? (
         <a
